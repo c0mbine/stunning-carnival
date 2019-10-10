@@ -10,7 +10,7 @@ public class Goodbye {
         this.content = content;
     }
 
-    public long getID(){
+    public long getID() {
         return id;
     }
 

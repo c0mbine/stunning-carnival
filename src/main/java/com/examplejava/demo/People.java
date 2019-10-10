@@ -1,11 +1,13 @@
 package com.examplejava.demo;
 
-public class Greeting {
+import java.util.List;
+
+public class People {
 
     private final long id;
-    private final String content;
+    private final List<String> content;
 
-    public Greeting(long id, String content) {
+    public People(long id, List<String> content) {
         this.id = id;
         this.content = content;
     }
@@ -14,7 +16,7 @@ public class Greeting {
         return id;
     }
 
-    public String getContent() {
+    public List<String> getContent() {
         return content;
     }
 }
