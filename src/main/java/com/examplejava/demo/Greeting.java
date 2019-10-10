@@ -1,11 +1,11 @@
-package hello;
+package com.examplejava.demo;
 
-public class Goodbye {
+public class Greeting{
 
     private final long id;
     private final String content;
 
-    public Goodbye(long id, String content) {
+    public Greeting(long id, String content){
         this.id = id;
         this.content = content;
     }
